@@ -1,0 +1,113 @@
+/* Styles for header and navigation bar */
+.header {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #666;
+}
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin-bottom: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Styles for comment section */
+.comment-section {
+  padding: 20px;
+}
+
+.comment-input {
+  margin-top: 10px;
+}
+
+/* Styles for shopping cart section */
+.shopping-cart-section {
+  padding: 20px;
+}
+
+.cart-item {
+  margin-bottom: 10px;
+}
+
+/* Styles for product section */
+.product-section {
+  padding: 20px;
+}
+
+.product-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.product-menu {
+  list-style: none;
+  display: flex;
+}
+
+.product-item {
+  margin-left: 20px;
+}
+
+.product-link {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.product-link:hover {
+  color: #666;
+}
+
+/* Styles for image carousel section */
+.image-carousel-section {
+  padding: 20px;
+}
+
+.carousel-buttons {
+  margin-top: 10px;
+}
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
